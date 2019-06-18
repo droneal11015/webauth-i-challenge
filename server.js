@@ -13,7 +13,7 @@ const server = express();
 
 const sessionConfig = {
   name: 'monkey',
-  secret: 'super secret string',
+  secret: 'fubar, banana',
   resave: false,
   saveUninitialized: false,
   cookie: {
